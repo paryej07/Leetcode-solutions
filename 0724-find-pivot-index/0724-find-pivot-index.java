@@ -8,7 +8,7 @@ class Solution {
             if(left_sum*2 == total_sum - nums[i]){
                 return i;
             }
-            left_sum+=nums[i];
+            left_sum += nums[i];
         }
         return -1;
     }
