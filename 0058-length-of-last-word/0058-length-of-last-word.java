@@ -1,9 +1,9 @@
 class Solution {
     public int lengthOfLastWord(String s) {
-        int length=0;
+        int len=0;
         for(String i:s.split(" ")){
-            length = i.length();
+            len = i.length();
         }
-        return length;
+        return len;
     }
 }
