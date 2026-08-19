@@ -10,7 +10,6 @@ class Solution {
                 sum += curr;
             }
         }
-
         return sum;
     }
 
