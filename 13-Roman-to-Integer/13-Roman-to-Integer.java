@@ -4,7 +4,6 @@ class Solution {
 
         for (int i = 0; i < s.length(); i++) {
             int curr = getValue(s.charAt(i));
-
             if (i + 1 < s.length() && curr < getValue(s.charAt(i + 1))) {
                 sum -= curr;
             } else {
